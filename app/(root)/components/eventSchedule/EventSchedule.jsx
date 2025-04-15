@@ -1,6 +1,7 @@
 import DaysGrid from "./DaysGrid";
 import FiltersAndAction from "./FiltersAndAction ";
 import Grid31 from "./Grid31";
+import NavArrow from "./NavArrow";
 
 const EventSchedule = () => {
   return (
@@ -15,6 +16,7 @@ const EventSchedule = () => {
           <FiltersAndAction />
           <DaysGrid />
           <Grid31 />
+          <NavArrow />
           {/* Your schedule content goes here */}
         </div>
       </div>
